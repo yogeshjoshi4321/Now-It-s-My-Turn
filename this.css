@@ -1,0 +1,13 @@
+body {
+	background-color: #f2f2f2; /* light gray background */
+}
+
+#heading {
+	color: #00698f; /* blue color for heading */
+	font-size: 36px; /* increase font size */
+}
+
+#paragraph {
+	color: #666; /* dark gray color for paragraph */
+	font-size: 18px; /* increase font size */
+}
