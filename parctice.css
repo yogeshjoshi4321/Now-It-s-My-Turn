@@ -1,0 +1,15 @@
+.button1{
+    transition: transform 1s ease-in-out 1s;
+}
+
+.button2{
+    transition: transform 0.5s ease-in-out 0.9s;
+}
+
+.button1 :hover{
+    transform: translate3d(20px,0px,10px) scale3d(1,1,2);
+}
+
+.button2 :hover{
+    transform: translate3d(0px,10px,10px) scale3d(1,1,2);
+}
