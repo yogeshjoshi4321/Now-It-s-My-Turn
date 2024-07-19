@@ -1,4 +1,49 @@
-*{
+/* keyframe */
+@keyframes slideinleft {
+    0%{
+        transform: translate(0,0);
+    }
+    /* 10%{
+        transform: translateX(10vh);
+    } */
+    20%{
+        transform: translateY(-30vh);
+    }
+    /* 30%{
+        transform: translateX(20vh);
+    }
+    40%{
+        transform: translate(0,40vh);
+    }
+    50%{
+        transform: translate(50vh,0);
+    }
+    60%{
+        transform: translate(0,-80vh);
+    }
+    70%{
+        transform: translate(100vh,0);
+    }
+    80%{
+        transform: translate(0,-50vh);
+    }
+    90%{
+        transform: translate(-10vh,0);
+    }
+    100%{
+        transform: translate(-170vh,0);
+    } */
+}
+
+.head{
+    animation: slideinleft 10s ease-in 1s 1;
+    position: relative;
+    top: 30vh;
+    left: 20vh;
+}
+
+/* keyframe */
+/* *{
     font-family: cursive;
 }
 .button1{
@@ -10,7 +55,7 @@
 }
 
 .button1 :hover{
-    transform: translate3d(20px,0px,10px) scale3d(1,1,2);
+    transform: translate3d(20vh,0px,10px) scale3d(1,1,2);
 }
 
 .button2 :hover{
@@ -18,7 +63,6 @@
 }
 
 .label{
-    /* color: rgb(241, 11, 11); */
     background-color: azure;
 }
 
@@ -37,14 +81,12 @@
 }
 
 .ta1:hover{
-    /* color: ; */
     background-color:rgb(176, 250, 176);
     color: gray;
 }
 
 .label :hover{
     color: rgb(241, 11, 11);
-    /* background-color: rgb(96, 154, 154); */
 }
 .text{
     transition: transform 3s ease-in-out 1s, color 1s ease-in .5s background-color .9s ease-in-out .6s ;
@@ -56,4 +98,4 @@
     transform-origin: top left;
     color: rgb(135, 4, 4);
     background-color: rgb(222, 243, 246);
-}
+} */

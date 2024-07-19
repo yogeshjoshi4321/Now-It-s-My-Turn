@@ -1,15 +1,15 @@
-.button{
+/* .button{
 	height: 60px;
 	width: 150px;
 	position: relative;
 	top: 0vh;
 	left: 85vh;
-/* 
+
 	transition-property:transform;
 	transition-duration: .5s;
 	transition-timing-function: ease-in;
 	transition-delay: .1s;
-	 */
+	
 
 	 transition: transform .5s ease-in .1s;
 }
@@ -17,23 +17,37 @@
 .text{
 	color: rgb(218, 78, 78);
 	font-size: larger;
-}
-
+} */
+/* 
 .text:hover{
 	color: red;
-	/* font-size: 30px;
+	font-size: 30px;
 	position: relative;
-	top: -2px; */
+	top: -2px;
 	transform: scale(2,2);
 }
 .button:hover {
 	background-color: rgb(151, 69, 69);
 	border-color: rgb(255, 0, 0);
 	transform: translate(10px,10px);
-}
-	/* 
-	@keyframe top-to-bottom {
-		0% {
+} */
 
+.top-to-bottom{
+	/* animation-name: ;
+	animation-duration: 1s; */
+	animation: top-to-bottom 1s ease-in-out 1s 2 normal none;
+	position: relative;
+}
+/* -------------- KEYFRAME --------------- */
+	
+@keyframe top-to-bottom {
+		form {
+			transform: translatey(-300px);
 		}
-	} */
+		
+		to {
+			transform: translatey(30px);
+		}
+	}
+
+/* -------------- KEYFRAME --------------- */
