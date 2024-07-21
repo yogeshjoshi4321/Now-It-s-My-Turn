@@ -3,13 +3,13 @@
     0%{
         transform: translate(0,0);
     }
-    /* 10%{
+    10%{
         transform: translateX(10vh);
-    } */
-    20%{
-        transform: translateY(-30vh);
     }
-    /* 30%{
+    20%{
+        transform: translateY(-30vh) rotate(360deg);
+    }
+    30%{
         transform: translateX(20vh);
     }
     40%{
@@ -32,70 +32,12 @@
     }
     100%{
         transform: translate(-170vh,0);
-    } */
+    }
 }
-
+/*  */
 .head{
-    animation: slideinleft 10s ease-in 1s 1;
+    animation: slideinleft 20s ease-in 1s 1;
     position: relative;
     top: 30vh;
     left: 20vh;
 }
-
-/* keyframe */
-/* *{
-    font-family: cursive;
-}
-.button1{
-    transition: transform 1s ease-in-out 1s;
-}
-
-.button2{
-    transition: transform 0.5s ease-in-out 0.9s;
-}
-
-.button1 :hover{
-    transform: translate3d(20vh,0px,10px) scale3d(1,1,2);
-}
-
-.button2 :hover{
-    transform: translate3d(0px,10px,10px) scale3d(1,1,2);
-}
-
-.label{
-    background-color: azure;
-}
-
-.ep{
-    background-color: azure;
-}
-.ep:hover{
-    color: red;
-}
-
-.ta{
-    background-color: azure;
-}
-.ta:hover{
-    color: blue;
-}
-
-.ta1:hover{
-    background-color:rgb(176, 250, 176);
-    color: gray;
-}
-
-.label :hover{
-    color: rgb(241, 11, 11);
-}
-.text{
-    transition: transform 3s ease-in-out 1s, color 1s ease-in .5s background-color .9s ease-in-out .6s ;
-    font-size: larger;
-}
-
-.text:hover{
-    transform: scale(1,1.3);
-    transform-origin: top left;
-    color: rgb(135, 4, 4);
-    background-color: rgb(222, 243, 246);
-} */

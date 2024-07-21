@@ -39,15 +39,80 @@
 	position: relative;
 }
 /* -------------- KEYFRAME --------------- */
-	
-@keyframe top-to-bottom {
-		form {
-			transform: translatey(-300px);
-		}
-		
-		to {
-			transform: translatey(30px);
-		}
+/* @keyframes slideinleft {
+    0%{
+        transform: translate(0,0);
+    }
+    10%{
+        transform: translateX(5vh);
+    }
+    20%{
+        transform: translateY(5vh);
+    }
+    30%{
+        transform: translateX(5vh);
+    }
+    40%{
+        transform: translate(0,5vh);
+    }
+    50%{
+        transform: translate(5vh,0);
+    }
+    60%{
+        transform: translate(0,-5vh);
+    }
+    70%{
+        transform: translate(15vh,0);
+    }
+    80%{
+        transform: translate(0,-5vh);
+    }
+    90%{
+        transform: translate(-5vh,0);
+    }
+    100%{
+        transform: translate(-15vh,0);
+    }
+}
+.slideinleft{
+    animation: slideinleft 10s ease-in 1s 5;
+    position: relative;
+    top: 5vh;
+    left: 20vh;
+} */
+
+/* keyframe of slideinleft*/
+
+/* keyframe of rotate */
+/* @keyframes rotateinandout {
+	0%{
+		transform: rotateX(90deg);	
+	}
+	10%{
+		transform: rotateY(30deg);
+	}
+	20%{
+		transform: rotateZ(30deg);
 	}
 
-/* -------------- KEYFRAME --------------- */
+}
+.rotateinandout{
+	animation: rotateinandout 10s ease-in 0.1s 5;
+} */
+/* keyframe of rotate */
+/* keyframe of scalechange */
+@keyframes scalechange {
+/* 0%{
+	transform: scale(1,1);
+} */
+10%{
+	transform: scale(-1.5,-1.5);
+}
+
+}
+.scalechange{
+	animation: scalechange 5s ease-in 1s 5;
+	/* position: relative;
+	left: 200vh; */
+}
+/* keyframe of scalechange */
